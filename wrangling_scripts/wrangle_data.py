@@ -2,7 +2,7 @@ import pandas as pd
 from functools import reduce
 import plotly
 import plotly.graph_objs as go
-import scipy
+#import scipy
 import plotly.figure_factory as ff
 import pycountry
 
