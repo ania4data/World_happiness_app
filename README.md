@@ -41,15 +41,15 @@
 
 ## General repository content:
 
-Data folder: contain 2015 to 2017 world happines csv data
-Server Gateway: `Procfile` connect the app to `Gunicorn` ("Green Unicorn" is a Python Web Server Gateway Interface HTTP server)
-Dependency data: `requirements.txt`
-Static folder: all static images in the app
-wrangling_scripts: contain `wrangle_data.py` where all csv files are processed into plotly plots
-templates: contain `index.html` file for rendering web layout and structure
-`__init__.py`: initialize flask as `app`
-`rountes.py`: get the plotly figures from backend wrangle_data.py and send it as JSON dump tp frontend using flask (render_template) 
-`worldhappiness.py`: connect `app` toeither local host or public address
+- Data folder: contain 2015 to 2017 world happines csv data
+- Server Gateway: `Procfile` connect the app to `Gunicorn` ("Green Unicorn" is a Python Web Server Gateway Interface HTTP server)
+- Dependency data: `requirements.txt`
+- Static folder: all static images in the app
+- wrangling_scripts: contain `wrangle_data.py` where all csv files are processed into plotly plots
+- templates: contain `index.html` file for rendering web layout and structure
+- `__init__.py`: initialize flask as `app`
+- `rountes.py`: get the plotly figures from backend wrangle_data.py and send it as JSON dump tp frontend using flask (render_template) 
+- `worldhappiness.py`: connect `app` toeither local host or public address
 
 
 ## Basic Usage for command line:
